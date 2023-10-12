@@ -1,0 +1,18 @@
+states         = {initial, true, false, final}
+initial_state  = initial
+final_state    = final
+alphabet       = {0, 1, B}
+blank          = B
+motions        = {R}
+initial_memory = {1, 1, 0, 1, B}
+test           = {1, 1, 0, 1, 0}
+
+initial, B -> final, 0, R
+initial, 0 -> false, 0, R
+initial, 1 -> true,  1, R
+false,   B -> final, 0, R
+false,   0 -> false, 0, R
+false,   1 -> false, 1, R
+true,    B -> final, 1, R
+true,    0 -> false, 0, R
+true,    1 -> true,  1, R

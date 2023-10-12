@@ -1,0 +1,31 @@
+#+title: Turing Machine Simulator
+
+This little crate is a weekend project for doing machine Turing programs.
+
+After cloning and installing ~cargo~ (use ~rustup~). Run the command below with
+a given filename to run the program.
+
+#+begin_src sh
+cargo run example_machines/FILE
+#+end_src
+
+Do not experiment with the parser and it produces inaccurate errors. Simply use
+the examples, copy and edit them instead for a better experience.
+
+Note that this is a fairly small program written in a small window. It's buggy
+and annoying to use. Regardless, it's fun to use. Maybe I add "Machine Chaning"
+functionality to it and export it to WASM. At this current state, lacks
+important features, it's undocument and unoptimized.
+
+* Notable points
+
+- Step by step (tick by tick) run of the machines or "skip to end" runs
+- A simple testing functionality to see if the machine exited with the memory
+  you expected
+- A notation similar to LaTeX for better mixing with scripts and else (for
+  example ~->~ can be replaced with ~\rightarrow~)
+- Simple code and separate ~lib.rs~
+- Not much else... It's a pretty minimal weekend project if you think about it
+
+* Lincese
+As defined in file:Cargo.toml.

@@ -1,0 +1,10 @@
+states         = {initial, final} ; contains all states used in the machine
+initial_state  = initial
+final_state    = final
+alphabet       = {0, 1, B} ; all the characters and delimiter
+blank          = B
+motions        = {L, R, Λ}
+initial_memory = {0, 0, 0, 0, B} ; or anything else
+
+;; Insturctions here in this format:
+;; current_state, current_alphabet -> future_output, output_alphabet, motion

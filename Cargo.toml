@@ -1,0 +1,13 @@
+[package]
+name = "turing"
+authors = ["M. Yas. Davoodeh <MYDavoodeh@gmail.com>"]
+description = "A simple Turing machine simulator."
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.65"
+readme = "README.org"
+license = "MIT OR Apache-2.0"
+
+[dependencies]
+derive_more = { version = "1.0.0-beta.3", features = ["full"] }
+nom = "7.1"

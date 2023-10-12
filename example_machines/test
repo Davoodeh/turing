@@ -1,0 +1,11 @@
+Q = {q_0, q_1, q_f}
+Q_i = q_0
+Q_f = q_f
+\Sigma = {0, 1, d}
+d = d
+M = { 0, 1, }
+S = {L, R, \Lambda}
+test = { 1, 0, 1 }
+
+q_0, 0 \rightarrow q_1, 1, R
+q_1, 0 \rightarrow q_f, 0, R
